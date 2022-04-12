@@ -51,8 +51,8 @@ class OrdersBussiness extends Bussiness {
     try {
       await connection.beginTransaction();
 
-      await this.repository.truncateTable('order_product', connection); 
-      await this.repository.truncateTable('order', connection); 
+      // await this.repository.truncateTable('order_product', connection); 
+      // await this.repository.truncateTable('order', connection); 
     
       const orderResult = await this.repository.createOrder(parsedData, connection); 
 
