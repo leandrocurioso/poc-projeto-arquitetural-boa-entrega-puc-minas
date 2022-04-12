@@ -1,0 +1,9 @@
+{
+  "name": "lambda-consumer-new-orders",
+  "description": "Consumidor em lambda para a fila sqs de novos pedidos.",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

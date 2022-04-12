@@ -1,0 +1,9 @@
+{
+  "name": "lambda-consumer-new-deliveries",
+  "description": "Consumidor em lambda para a fila sqs de nova entrega.",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

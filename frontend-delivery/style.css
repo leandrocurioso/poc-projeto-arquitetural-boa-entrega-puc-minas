@@ -1,0 +1,24 @@
+/* Put your css in here */
+
+.angular-google-map-container {
+  height: 400px;
+  margin-bottom: 15px;
+}
+
+.panel-primary {
+  padding: 15px;
+}
+
+.list-group li {
+  cursor: pointer;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.list-group li:hover {
+  color: #d9edf7;
+  background-color: #31708f;
+  border-color: #bce8f1;
+}
+
